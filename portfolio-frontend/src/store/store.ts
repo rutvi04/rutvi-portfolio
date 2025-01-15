@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import themeReducer from "./themeSlice";
+import contactReducer from "./contactSlice";
 
 const store = configureStore({
     reducer: {
         theme: themeReducer,
+        contact: contactReducer,
     }
 });
 

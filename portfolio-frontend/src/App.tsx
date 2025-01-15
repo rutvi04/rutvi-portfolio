@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import { useSelector } from "react-redux";
 import { RootState } from "./store/store";
@@ -24,6 +25,7 @@ const App: React.FC = () => {
         <About/>
         <Skills/>
         <Projects/>
+        <Contact/>
       </Layout>
     </div>
   );
